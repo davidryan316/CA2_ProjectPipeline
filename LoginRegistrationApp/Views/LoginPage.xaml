@@ -6,7 +6,7 @@
              x:DataType="vm:LoginViewModel">
     <ContentPage.Content>
         <StackLayout Padding="20" Spacing="20">
-            <Entry Placeholder="Usernames" Text="{Binding Username}" />
+            <Entry Placeholder="Username" Text="{Binding Username}" />
             <Entry Placeholder="Password" Text="{Binding Password}" IsPassword="True" />
             <Button Text="Login" Command="{Binding LoginCommand}" />
             <Button Text="Register" Command="{Binding NavigateToRegistrationCommand}" />
