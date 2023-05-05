@@ -1,0 +1,10 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginRegistrationApp.Views.MainPage">
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="20">
+            <Label Text="Welcome to the Main Page!" FontSize="24" HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
